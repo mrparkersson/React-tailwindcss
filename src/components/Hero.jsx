@@ -28,11 +28,19 @@ const Hero = () => {
         "
         >
           <p>Data Services</p>
-          <div>
-            <p>Icon. App Security</p>
-            <p>Icon. Dashboard Design</p>
-            <p>Icon. Cloud Data</p>
-            <p>Icon. API</p>
+          <div className="flex justify-between flex-wrap px-4 ">
+            <p className=" flex px-4 py-2 text-slate-500">
+              <CloudUploadIcon className="h-6 text-indigo-600" /> App Security
+            </p>
+            <p className=" flex px-4 py-2 text-slate-500">
+              <DatabaseIcon className="h-6 text-indigo-600" /> Dashboard Design
+            </p>
+            <p className=" flex px-4 py-2 text-slate-500">
+              <ServerIcon className="h-6 text-indigo-600" /> Cloud Data
+            </p>
+            <p className=" flex px-4 py-2 text-slate-500">
+              <PaperAirplaneIcon className="h-6 text-indigo-600" /> API
+            </p>
           </div>
         </div>
       </div>
